@@ -1,0 +1,178 @@
+body {
+    margin:auto;
+    background-color: #1C1C1C ; 
+    overflow: hidden;
+}
+  
+.container {
+    margin-left: 160px;
+    width: auto;
+    display: flex;
+}
+
+.left{
+    position: relative;
+    background-image: url(leaf-img.jpg);
+    background-size: 100% 100%;
+    height: auto;
+    width: 420px;
+} 
+
+.transparent-background {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(15, 15, 15, 0.5);
+    height: 115px; 
+    margin-top: 175px;
+}
+
+.transparent-background img {
+    margin-left: auto;
+    max-width: auto;
+    max-height: auto;
+    padding: 10px;
+
+}
+
+.transparent-background h1 {
+    margin-right: auto;
+    font-family: 'Norse';
+    src: url(https://www.fontspace.com/norse-font-f21080);
+    color: white;
+    font-size: 75px;
+    margin: 0;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    color: lightgray;
+    position: absolute;
+    font-size: 12px;
+    margin-left: 130px;
+    margin-bottom: 10px;
+    bottom: 0;
+}
+
+.upper{
+    background-color: #F5F5F5;
+    height: 300px;
+    width: 700px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif
+    
+} 
+#p-1 {
+    font-size: 17px;
+    padding-top: 120px;
+    padding-left: 40px;
+    padding-right: 120px;
+    margin: 0;
+}
+#p-2 {
+    font-size: 17px;
+    padding-top: 1px; /* or whatever smaller value you prefer */
+    padding-left: 40px;
+    padding-right: 120px;
+    margin: 0;
+}
+.main{
+    background-color: white;
+    height: 250px;
+    width: 700px;
+    position: relative;
+    box-shadow: 0px 5px 8px -8px lightgrey,0px -5px 8px -8px lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main p {
+    font-size: 17px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 120px;
+    margin: 0;
+}
+.main form {
+    padding-left: 40px;
+    padding-right: 120px;
+    padding-top: 10px;
+}
+
+.form-row {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.form-field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.main label {
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    color: #333333;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+}
+
+.main input {
+    padding: 5px 8px;
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.main input:focus {
+    outline: none;
+    border-color: #1E40AF;
+    box-shadow: 0 0 0 2px rgba(30, 64, 175, 0.1);
+}
+
+.lower{
+    background-color: #F5F5F5;
+    height: 260px;
+    width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lower button {
+    background-color: #596D48;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.lower button:hover {
+    background-color: #4a5d3a;
+}
+
+.lower p {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.login-link {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
+
